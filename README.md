@@ -11,7 +11,7 @@ Image colorization is the process of taking an input grayscale (black and white)
 
 
 
-Technical Aspect
+## Technical Aspect ##
 The technique we’ll be covering here today is from Zhang et al.’s 2016 ECCV paper, Colorful Image Colorization. Developed at the University of California, Berkeley by Richard Zhang, Phillip Isola, and Alexei A. Efros.
 
 Previous approaches to black and white image colorization relied on manual human annotation and often produced desaturated results that were not “believable” as true colorizations.
@@ -32,3 +32,11 @@ The color photos were decomposed using Lab model and “L channel” is used as 
 
 
 The trained model (that is available publically and in models folder of this repo or download it by clicking here), we can use it to colorize a new B&W photo, where this photo will be the input of the model or the component “L”. The output of the model will be the other components “a” and “b”, that once added to the original “L”, will return a full colorized image.
+
+## Installation And Run ##
+1.The Code is written in Python 3.7. If you don't have Python installed you can find it here. If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning the repository:
+
+pip install -r requirements.txt
+
+## Run the file with:
+ streamlit run app.py
