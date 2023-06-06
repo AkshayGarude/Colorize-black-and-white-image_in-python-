@@ -40,3 +40,10 @@ pip install -r requirements.txt
 
 ## Run the file with:
  streamlit run app.py
+
+
+
+## NOTE 
+ one pretrained model is not worikng you can simpley download it from below link 
+
+ 
