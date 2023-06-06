@@ -46,4 +46,6 @@ pip install -r requirements.txt
 ## NOTE 
  one pretrained model is not worikng you can simpley download it from below link 
 
+https://drive.google.com/drive/folders/1FaDajjtAsntF_Sw5gqF0WyakviA5l8-a
+
  
